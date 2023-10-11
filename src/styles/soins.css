@@ -1,0 +1,19 @@
+.soins-box {
+    width: fit-content;
+    margin: 0 auto 2rem auto;
+    padding: 1rem 3rem;
+    background-color: #2088ff;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    font-size: 1.25rem;
+}
+
+/* .liste-soins {
+    visibility: hidden;
+    width: 20rem;
+    height: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    line-height: 1.5rem;
+} */

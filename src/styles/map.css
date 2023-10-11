@@ -1,0 +1,16 @@
+.leaflet-container {
+    width: 30rem;
+    height: 25rem;
+    border: 1px solid #e2e2e2;
+    border-radius: 0.5rem;
+    box-shadow: 0 10px 100px #e2e2e2dd;
+    z-index: 0;
+}
+
+@media (max-width: 50em) {
+    .leaflet-container {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }   
+}

@@ -1,0 +1,29 @@
+.contact-buttons {
+    position: fixed;
+    bottom: 50%;
+    right: 15rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.contact-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    background-color: #ffffff00;
+    border: 1px solid #bbb;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .2);
+}
+
+@media (max-width: 50em) {
+    .contact-buttons {
+        position: unset;
+        flex-direction: unset;
+        justify-content: center;
+        gap: 2rem;
+    }
+}
